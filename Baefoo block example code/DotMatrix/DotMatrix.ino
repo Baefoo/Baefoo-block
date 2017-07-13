@@ -2,8 +2,8 @@
 #include "Mouths.h"
 #define NumMatrix 1       // Cuantas matrices vamos a usar
 
-MaxMatrix lc=MaxMatrix(12,10,11, NumMatrix);  // Creamos una instancia de LedControl
-
+MaxMatrix lc=MaxMatrix(13,11,12, NumMatrix);  // Creamos una instancia de LedControl
+                                              // DIN, CS, CLK
 void setup()
 {
    for (int i=0; i< NumMatrix ; i++)
