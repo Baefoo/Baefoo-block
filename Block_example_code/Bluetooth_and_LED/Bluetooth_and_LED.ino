@@ -1,6 +1,6 @@
 #include <SoftwareSerial.h>
-int tx=2;
-int rx=3;
+int tx=7;
+int rx=6;
 int LED=13;
 SoftwareSerial bluetoothSerial(tx,rx);
 void setup() {
@@ -15,4 +15,3 @@ void loop() {
       digitalWrite(LED, LOW);
   }
 }
-

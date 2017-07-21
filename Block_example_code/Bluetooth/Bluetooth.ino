@@ -1,6 +1,6 @@
 #include <SoftwareSerial.h>
-int tx = 2;
-int rx = 3;
+int tx = 7;
+int rx = 6;
 SoftwareSerial btSerial(tx,rx);
 String serialString;
 void setup() {
